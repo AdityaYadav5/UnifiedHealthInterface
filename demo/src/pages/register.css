@@ -1,0 +1,87 @@
+/* Light mode styles */
+body {
+  margin: 0;
+  padding: 0;
+  /* background-color: #3a3838; */
+  font-family: Arial, sans-serif;
+  /* background-image: url('https://cdn.pixabay.com/photo/2018/12/20/06/53/network-3885328_1280.jpg'); */
+  background-repeat: no-repeat;
+}
+
+.register-form {
+  width: 400px;
+  margin: 50px auto;
+  padding: 30px;
+  background: linear-gradient(to bottom, #fff, #f2f2f2);
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  background-color: #e3e3e3;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.input-field:focus {
+  outline: none;
+  background-color: #fff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.submit-button {
+  display: block;
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.submit-button:hover {
+  background-color: #3e8e41;
+}
+
+/* Dark mode styles */
+body.dark-mode {
+  background-color: #1c1c1c;
+  color: #f1f1f1;
+}
+
+.register-form.dark-mode {
+  background: linear-gradient(to bottom, #292929, #222);
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.05);
+}
+
+.input-field.dark-mode {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.submit-button.dark-mode {
+  background-color: #3a3a3a;
+}
+
+/* Glassmorphism effect */
+.register-form {
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.submit-button {
+  background: linear-gradient(135deg, #6c63ff, #5c5cff);
+  box-shadow: 0 5px 15px rgba(92, 92, 255, 0.4);
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.submit-button:hover {
+  box-shadow: 0 10px 30px rgba(92, 92, 255, 0.4);
+}

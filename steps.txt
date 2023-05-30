@@ -1,0 +1,11 @@
+install outer folder and inner folder dependencies
+install metamask on a browser and only run it on that browser using localhost:3000(react frontend port)
+import accounts on metamask from hardhat test accounts
+commands to be run on dedicated terminals:
+1) npx hardhat run
+2) npx hardhat run --network localhost scripts/deploy.js
+3) npm run dev (for backend node.js server)
+ cd demo
+4) npm start
+
+Use gfg article and codr kai youtube channel to learn backend and front end connection
